@@ -1,0 +1,223 @@
+body{
+    border-color: white;
+    background-image: url(../img/ocr.jpg)
+}
+  .logo{
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    border-radius: 50% ;
+    margin-left: 40px;
+   margin-top: 20px;
+  }
+  h1{
+    margin-left: 300px;
+    margin-top: 40px;
+   font-size: 60px;
+   font-family:Arial, Helvetica, sans-serif;
+  }
+  a{
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+    color: #db1d1d;
+  }
+ .button1{
+    margin-left: 194px;
+    margin-top: 40px;
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 3px 3px 3px red;
+   
+ }
+ .button1:hover{
+color: red;
+box-shadow: 3px 3px 3px blue;
+background-color: gray;
+ }
+ .button2{
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 160px;
+    height: 60px;
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(40, 40, 196);
+ }
+ .button2:hover{
+   color: blue;
+   box-shadow: 3px 3px 3px gray;
+   background-color: rgb(231, 70, 70);
+ }
+ .button3{
+    margin-left: 220px;
+    margin-top: 40px;
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 3px 3px 3px gray;
+    
+ }
+ .button3:hover{
+   color: gray;
+   box-shadow: 3px 3px 3px red;
+   background-color: rgb(40, 40, 207);
+ }
+
+ .p2{
+    margin-top: 100px;
+    margin-left: 70px;
+    font-size: 30px;
+    color: rgb(6, 6, 15);
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(216, 50, 50);
+ }
+ .p2:hover{
+color: rgb(177, 36, 36);
+background-color: white;
+box-shadow: 5px 5px 5px rgb(61, 27, 185);
+ }
+  h2{
+    margin-top: 90px;
+    margin-left: 240px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(45, 45, 168);
+  }
+ li{
+    font-size: 33px;
+ }
+ .li2{
+    color: red;
+ }
+ .li3{
+    color: blue;
+ }
+ .li4{
+    color: grey;
+ }
+ h3{
+    margin-top: 80px;
+    margin-left: 460px;
+    font-size: 64px;
+    color: rgb(167, 19, 19);
+    font-family:'Times New Roman', Times, serif;
+ }
+ .image3{
+    margin-left: 44px;
+    margin-top: 33px;
+    border-radius: 50%;
+ }
+
+ .p3{
+margin-left: 484px;
+margin-top: -270px;
+font-size: 33px;
+ }
+ .p3:hover{
+   background-color: red;
+   color: white;
+   box-shadow: #3f2ab8;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .image4{
+   position: absolute;
+   margin-left: 984px;
+   margin-top: 30px;
+   font-size: 330px;
+   border-radius: 50%;
+ }
+ .p4{
+   margin-top: 240px;
+   margin-left: 27px;
+   font-size: 27px;
+  
+ }
+ .p4:hover{
+   background-color: rgb(28, 16, 189);
+   color: white;
+   box-shadow: #db1d1d;
+ }
+ .image5{
+   margin-left: 44px;
+   margin-top: 33px;
+   border-radius: 50%;
+ }
+ .p5{
+   margin-top:-200px;
+   margin-left: 445px;
+   font-size: 33px;  
+ }
+ .p5:hover{
+   background-color: gray;
+   color: rgb(241, 232, 232);
+   box-shadow: #3f2ab8;
+ }
+ .dropbtn {
+   background-color: #da2525;
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+ 
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+   margin-left: 555px;
+   margin-top: 50px;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   margin-left: 85px;
+   margin-top:60px ;
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3f2ab8;}
+
+.topbtn {
+   left: 55px;
+   width:100px;
+   border:2px solid rgb(185, 53, 53);
+   background:#f7f7f7;
+   text-align:center;
+   padding:10px;
+   position:fixed;
+   bottom:50px;
+   right:50px;
+   cursor:pointer;
+   color:rgb(177, 21, 21);
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size:22px;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -khtml-border-radius: 5px;
+   }
+   .topbtn:hover{
+      color: #3f2ab8;
+      box-shadow: 5px 5px 5px rgb(0, 0, 0);
+   }
